@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Excel Mandarin",
+    "year": "2020",
+    "stack": ["React", "TypeScript"],
+    "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce .",
+    "image": "public/me.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Excel Mandarin",
+    "year": "2020",
+    "stack": ["React", "TypeScript"],
+    "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce .",
+    "image": "public/me.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Excel Mandarin",
+    "year": "2020",
+    "stack": ["React", "TypeScript"],
+    "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce .",
+    "image": "public/me.jpg"
+  }
+]

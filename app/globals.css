@@ -2,26 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-background text-white;
+}
+
+main {
+  @apply max-w-5xl my-12 mx-auto px-8;
+}
+
+nav {
+}
+
+form {
+  @apply py-4
+    bg-opacity-5 
+    rounded-md 
+    block 
+    mx-auto;
+}
+form label {
+  @apply block;
+}
+form input,
+form textarea,
+form select {
+  @apply text-black 
+    text-lg block 
+    mt-2 my-4 p-4
+    rounded-sm w-full resize-none;
+}
+form button {
+  @apply block mx-auto;
+}
+
+.button {
+  @apply bg-red-400 p-4 font-medium text-lg rounded-md;
+}
+
+.borderGray {
+  @apply border-b-2 border-gray-700;
 }
