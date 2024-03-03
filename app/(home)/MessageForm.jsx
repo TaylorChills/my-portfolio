@@ -9,7 +9,7 @@ export default function AuthForm({ handleSubmit }) {
 
   return (
     <form
-      className='flex flex-col'
+      className='flex flex-col sm:w-1/2'
       onSubmit={(e) => handleSubmit(e, email, password)}
     >
       <label>

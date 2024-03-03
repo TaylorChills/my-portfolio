@@ -17,8 +17,7 @@ form {
   @apply py-4
     bg-opacity-5 
     rounded-md 
-    block 
-    mx-auto;
+    block;
 }
 form label {
   @apply block;
@@ -27,7 +26,7 @@ form input,
 form textarea,
 form select {
   @apply text-black 
-    text-lg block 
+    block 
     mt-2 my-4 p-4
     rounded-sm w-full resize-none;
 }
@@ -41,4 +40,7 @@ form button {
 
 .borderGray {
   @apply border-b-2 border-gray-700;
+}
+
+.card {
 }

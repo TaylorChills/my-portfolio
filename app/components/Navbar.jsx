@@ -8,7 +8,7 @@ export default function Navbar() {
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <nav className='flex justify-between bg-background p-4 borderGray w-full fixed top-0 left-0 right-0 z-10'>
+    <nav className='flex justify-between bg-background sm:bg-red-900 md:bg-blue-900 lg:bg-yellow-900 p-4 borderGray w-full fixed top-0 left-0 right-0 z-10'>
       <h2>Taylor Chiles</h2>
       <button className='md:hidden' onClick={() => setOpenNav(!openNav)}>
         <Image src={menu} alt='menu-button' height={26} width={26} />
@@ -24,9 +24,6 @@ export default function Navbar() {
           </li>
           <li>
             <a href='#portfolio'>Portfolio</a>
-          </li>
-          <li>
-            <a href='#about'>About</a>
           </li>
           <li>
             <a href='#contact'>Contact</a>

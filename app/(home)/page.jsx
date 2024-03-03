@@ -31,9 +31,13 @@ export default function Home() {
             veniam consequat sunt nostrud amet.
           </p>
           <div className='flex justify-center sm:justify-start'>
-            <button className='bg-red-400 p-4 font-medium text-lg rounded-md'>
+            <a
+              target='_blank'
+              href='https://violet-eugenia-34.tiiny.site'
+              className='bg-red-400 p-4 font-medium text-lg rounded-md'
+            >
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -45,8 +49,8 @@ export default function Home() {
         })}
       </div>
       {/* About */}
-      <div id='about'>
-        <div className='my-4 pb-8 border-b-2 border-gray-700'>
+      <div id='contact' className='flex flex-col justify-between sm:flex-row'>
+        <div className='my-4 pb-8 sm:w-1/2 sm:pr-6 md:w-1/3 md:pr-0'>
           <h3 className='text-3xl py-4'>Lets work together</h3>
           <p>
             This is a template Figma file, turned into code using Anima. Learn
@@ -54,8 +58,6 @@ export default function Home() {
             using Anima. Learn more at AnimaApp.com
           </p>
         </div>
-      </div>
-      <div id='contact'>
         <MessageForm />
       </div>
     </main>
