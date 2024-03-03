@@ -2,19 +2,27 @@
 
 import menu from '../../public/menu.svg';
 import Image from 'next/image';
+import tclogo from '../../public/tc-logo.svg';
 import { useState } from 'react';
 
 export default function Navbar() {
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <nav className='flex justify-between bg-background sm:bg-red-900 md:bg-blue-900 lg:bg-yellow-900 p-4 borderGray w-full fixed top-0 left-0 right-0 z-10'>
-      <h2>Taylor Chiles</h2>
+    <nav className='flex justify-between items-center px-4 py-1 bg-background borderGray w-full fixed top-0 left-0 right-0 z-10'>
+      {/* <h2>Taylor Chiles</h2> */}
+      <Image
+        src={tclogo}
+        alt='logo'
+        width={40}
+        height={40}
+        className='invert'
+      />
       <button className='md:hidden' onClick={() => setOpenNav(!openNav)}>
         <Image src={menu} alt='menu-button' height={26} width={26} />
       </button>
       <div
-        className={`absolute right-0 bg-background border-2 border-gray-700 p-4 w-1/3 top-[56px] rounded-bl-xl round md:static md:block md:w-min md:bg-transparent md:py-0 md:border-none ${
+        className={`absolute right-0 bg-background border-2 border-gray-700 p-4 w-1/3 top-[66px] rounded-bl-xl round md:static md:block md:w-min md:bg-transparent md:py-0 md:border-none ${
           !openNav && 'hidden'
         }`}
       >

@@ -40,7 +40,7 @@ export default function AuthForm({ handleSubmit }) {
           required
         />
       </label>
-      <button className='btn-primary'>Submit</button>
+      <button className='button'>Send Message</button>
     </form>
   );
 }

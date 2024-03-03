@@ -27,7 +27,7 @@ form textarea,
 form select {
   @apply text-black 
     block 
-    mt-2 my-4 p-4
+    mb-4 p-4
     rounded-sm w-full resize-none;
 }
 form button {
@@ -35,12 +35,17 @@ form button {
 }
 
 .button {
-  @apply bg-red-400 p-4 font-medium text-lg rounded-md;
+  @apply bg-orange-500 p-4 font-medium text-lg rounded-md;
 }
 
 .borderGray {
   @apply border-b-2 border-gray-700;
 }
 
-.card {
+.stack {
+  @apply flex items-center;
+}
+
+.stack img {
+  @apply pr-2;
 }

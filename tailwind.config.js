@@ -10,9 +10,6 @@ module.exports = {
       colors: {
         background: '#15161A',
       },
-      inset: {
-        '56px': '56px',
-      },
     },
   },
   plugins: [],
