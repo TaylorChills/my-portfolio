@@ -18,7 +18,7 @@ export default function Card({ props }) {
           <a
             target='_blank'
             href='https://reader.app.excelmandarin.com/login'
-            className='bg-orange-600 py-1 px-4 rounded-2xl'
+            className='bg-orange-600 py-1 px-4 rounded-2xl h-min'
           >
             View
           </a>
