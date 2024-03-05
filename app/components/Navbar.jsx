@@ -1,8 +1,8 @@
 'use client';
 
-import menu from '../../public/menu.svg';
+import menu from '../../public/icons/menu.svg';
+import tclogo from '../../public/icons/tc-logo.svg';
 import Image from 'next/image';
-import tclogo from '../../public/tc-logo.svg';
 import { useState } from 'react';
 
 export default function Navbar() {

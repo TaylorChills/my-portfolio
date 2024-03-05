@@ -2,24 +2,10 @@
   {
     "id": "1",
     "title": "Excel Mandarin Study App",
-    "year": "2020",
-    "stack": ["React", "TypeScript"],
-    "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti.",
-    "image": "public/me.jpg"
-  },
-  {
-    "id": "2",
-    "title": "Excel Mandarin",
-    "year": "2020",
-    "stack": ["React", "TypeScript"],
-    "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti."
-  },
-  {
-    "id": "3",
-    "title": "Excel Mandarin",
-    "year": "2020",
-    "stack": ["React", "TypeScript"],
-    "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. .",
-    "image": "public/me.jpg"
+    "stack": ["React", "TypeScript", "Node.js", "Sass"],
+    "body": " Designed to enhance listening comprehension skills for students of Excel Mandarin. This app serves as a vital resource for students to practice and improve their understanding of Mandarin through auditory exercises and practice exercises before attending their class sessions, ensuring they are well-prepared and confident.",
+    "image": "/images/em-app.png",
+    "imageAlt": "em-page",
+    "link": "https://reader.app.excelmandarin.com/login"
   }
 ]

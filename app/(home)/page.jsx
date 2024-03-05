@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import me from '../../public/me.jpg';
+import me from '../../public/images/me.jpg';
 import apps from '../../_data/db.json';
 import Card from '../components/Card';
-import github from '../../public/github.svg';
-import instagram from '../../public/instagram.svg';
-import linkedin from '../../public/linkedin.svg';
+import github from '../../public/icons/github.svg';
+import instagram from '../../public/icons/instagram.svg';
+import linkedin from '../../public/icons/linkedin.svg';
 
 export default function Home() {
   const data = apps;
