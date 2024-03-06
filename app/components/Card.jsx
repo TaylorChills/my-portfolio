@@ -18,9 +18,9 @@ export default function Card({ props }) {
           <a
             target='_blank'
             href={props.link}
-            className='bg-orange-600 py-1 px-4 rounded-2xl h-min'
+            className='btn-primary py-1 px-4 rounded-2xl h-min'
           >
-            View
+            Open App
           </a>
         </div>
         <div className='flex flex-row items-center pb-4'>

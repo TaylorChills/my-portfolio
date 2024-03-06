@@ -34,12 +34,20 @@ form button {
   @apply block mx-auto;
 }
 
-.button {
-  @apply bg-orange-500 p-4 font-medium text-lg rounded-md;
+.link-white {
+  @apply text-white hover:text-gray-300;
+}
+
+.btn-primary {
+  @apply bg-orange-600 hover:bg-orange-700;
 }
 
 .borderGray {
   @apply border-b-2 border-gray-700;
+}
+
+.icon-hover {
+  @apply hover:scale-105;
 }
 
 .stack {

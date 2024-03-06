@@ -39,9 +39,9 @@ export default function Home() {
             <a
               target='_blank'
               href='https://violet-eugenia-34.tiiny.site'
-              className='bg-orange-600 p-4 font-medium text-lg rounded-md'
+              className='btn-primary p-4 font-medium text-lg rounded-md'
             >
-              Download Resume
+              View Resume
             </a>
           </div>
         </div>
@@ -49,14 +49,14 @@ export default function Home() {
       {/* Work display */}
       <div id='portfolio' className='my-4 pb-8 border-b-2 border-gray-700'>
         <h2 className='text-2xl text-center py-4'>Featured Works</h2>
-        {data.map((app) => {
+        {data.projects.map((app) => {
           return <Card key={app.id} props={app} />;
         })}
       </div>
       {/* About */}
       <div id='contact' className='flex justify-center'>
         <div className='pb-4 md:w-1/2'>
-          <h3 className='text-3xl py-4'>Lets work together</h3>
+          <h3 className='text-3xl py-4 md:text-center'>Lets work together</h3>
           <p>
             Please contact me directly by email or through any of the provided
             social media links. I look forward to hearing from you and
@@ -65,33 +65,21 @@ export default function Home() {
           <div className='flex flex-col items-center py-8 '>
             <p className='text-lg pb-6'>chilestaylor@gmail.com</p>
             <div className='flex justify-center gap-6'>
-              <Link href={'https://www.linkedin.com/in/taylor-chiles/'}>
-                <Image
-                  src={linkedin}
-                  alt='linkedin-link'
-                  width={iconSize}
-                  height={iconSize}
-                  className='invert'
-                />
-              </Link>
-              <Link href={'https://github.com/TaylorChills'}>
-                <Image
-                  src={github}
-                  alt='github-link'
-                  width={iconSize}
-                  height={iconSize}
-                  className='invert'
-                />
-              </Link>
-              <Link href={'https://www.instagram.com/tchills_ischillin/'}>
-                <Image
-                  src={instagram}
-                  alt='instagram-link'
-                  width={iconSize}
-                  height={iconSize}
-                  className='invert'
-                />
-              </Link>
+              {data.links.map((link) => {
+                return (
+                  <>
+                    <a target='_blank' href={link.link}>
+                      <Image
+                        src={link.icon}
+                        alt={link.iconAlt}
+                        width={iconSize}
+                        height={iconSize}
+                        className='invert icon-hover'
+                      />
+                    </a>
+                  </>
+                );
+              })}
             </div>
           </div>
         </div>

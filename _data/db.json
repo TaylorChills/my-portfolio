@@ -1,11 +1,34 @@
-[
-  {
-    "id": "1",
-    "title": "Excel Mandarin Study App",
-    "stack": ["React", "TypeScript", "Node.js", "Sass"],
-    "body": " Designed to enhance listening comprehension skills for students of Excel Mandarin. This app serves as a vital resource for students to practice and improve their understanding of Mandarin through auditory exercises and practice exercises before attending their class sessions, ensuring they are well-prepared and confident.",
-    "image": "/images/em-app.png",
-    "imageAlt": "em-page",
-    "link": "https://reader.app.excelmandarin.com/login"
-  }
-]
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Excel Mandarin Study App",
+      "stack": ["React", "TypeScript", "Node.js", "Sass"],
+      "body": " Designed to enhance listening comprehension skills for students of Excel Mandarin. This app serves as a vital resource for students to practice and improve their understanding of Mandarin through auditory exercises and practice exercises before attending their class sessions, ensuring they are well-prepared and confident.",
+      "image": "/images/em-app.png",
+      "imageAlt": "em-page",
+      "link": "https://reader.app.excelmandarin.com/login"
+    }
+  ],
+
+  "links": [
+    {
+      "id": "1",
+      "icon": "/icons/linkedin.svg",
+      "iconAlt": "linkedin-icon",
+      "link": "https://www.linkedin.com/in/taylor-chiles/"
+    },
+    {
+      "id": "2",
+      "icon": "/icons/github.svg",
+      "iconAlt": "github-icon",
+      "link": "https://github.com/TaylorChills/"
+    },
+    {
+      "id": "3",
+      "icon": "/icons/instagram.svg",
+      "iconAlt": "instagram-icon",
+      "link": "https://www.instagram.com/tchills_ischillin/"
+    }
+  ]
+}
