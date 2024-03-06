@@ -38,7 +38,7 @@ export default function Home() {
           <div className='flex justify-center sm:justify-start'>
             <a
               target='_blank'
-              href='https://violet-eugenia-34.tiiny.site'
+              href='https://peach-willette-98.tiiny.site/'
               className='btn-primary p-4 font-medium text-lg rounded-md'
             >
               View Resume
