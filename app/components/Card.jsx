@@ -9,7 +9,7 @@ export default function Card({ props }) {
         src={props.image}
         alt={props.imageAlt}
         width={500}
-        height={500}
+        height={501}
         className='w-full h-48 object-cover'
       />
       <div className='pt-4 md:pt-0 md:pl-4'>
